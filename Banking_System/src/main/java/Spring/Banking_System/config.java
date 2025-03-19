@@ -16,7 +16,7 @@ public class config {
 		DriverManagerDataSource d=new DriverManagerDataSource();
 		d.setUrl("jdbc:mysql://localhost:3306/Bank");
 		d.setUsername("root");
-		d.setPassword("7033934792rR@");
+		d.setPassword("root");
 		return d;
 	}
 	@Bean
